@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Welcom"></activity>
+        <activity
+            android:name=".Welcom"
+            android:theme="@style/welcomeTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+    </activity>
     </application>
 
 </manifest>
