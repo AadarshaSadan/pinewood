@@ -8,5 +8,11 @@
 
 
     <string name="slide_1_desc">Welcome to pinewood Dhulikhel</string>
+    <string name="slide_2_desc">this is next activity</string>
+    <string-array name="names">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item></string-array>
 
 </resources>
