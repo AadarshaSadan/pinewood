@@ -55,7 +55,7 @@
         tools:layout_editor_absoluteY="318dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_submit"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,15 +64,16 @@
         android:layout_marginStart="130dp"
         android:background="#2ac18e"
         android:text="submit"
+        android:onClick="sendMessage"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="135dp"
         android:layout_height="120dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/button"
-        android:layout_marginStart="-16dp"
+        android:layout_marginStart="108dp"
         app:srcCompat="@mipmap/ic_launcher_foreground" />
 
 
